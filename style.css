@@ -1,12 +1,16 @@
-.h1{
+h1{
 	text-align: center;
 	background-color: red;
 }
 
-.h2{
+h2{
 	font-family: Verdana;
-	font-style: italic;
-	color: green;
+	/*font-style: italic;
+	color: green;*/
+}
+
+h3{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .para_1{
@@ -23,8 +27,8 @@
 	background: white;
 }
 
-.p{
-	color: black;
+p{
+	color: rgb(255, 255, 255);
 }
 
 .titre{
@@ -32,20 +36,17 @@
 	background-color: aqua; 
 	color: black ;
 	font-size: 16;
-	font-family: Corbel;
-	
+	font-family: Corbel;	
 }
-.table{
+
+table{
 	border-collapse: collapse;
 }
-.td, th{
+td, th{
 	border: 1px solid black;
 }
 	
 	
-.img{
-	width: 150px;
-	height: 150px;
 }
 .part1{
 	border:1px solid black;
@@ -77,4 +78,19 @@
 	border-collapse: collapse; 
 	border-radius: 10px 10px 10px 10px;
 }
-     
+
+img {
+    width: 65%;
+}
+
+.construction{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body {
+	color:black;
+	background-color:white;
+	background-image:url(img/wallpaper.jpg);
+	}
