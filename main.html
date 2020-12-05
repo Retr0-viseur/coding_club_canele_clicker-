@@ -3,6 +3,7 @@
     <head>
 		<meta charset="utf-8">
 		<title>Retr0's Stars Clicker</title>
+		<script type="text/javascript" src="script.js"></script>
 		<link rel="stylesheet" href="style.css" />
 		<link rel="stylesheet" href="preset.css" />
 		<link rel="stylesheet" href="star.css" />
@@ -11,50 +12,37 @@
     <body>
         <div>
 
-        <h1><b>Stars Clicker</b></h1>
+        <h1><b>Stars Clicker<br></b></h1><br>
 
-		<!-- <img src="img/etoile_fil.jpg">
-		-->
-
-        <br>
-
-            <script>
-                var cannele = 1;
-                var four = 1;
-				var prix = 25
-
-
-                function compteur() {
-                    document.getElementById('clic').innerHTML = (cannele++).toString();
-                }
-				function four(){
-					document.getElementById('clic').innerHTML = (four++).toString();
-					cannele -= prix
-					prix = prix*1.6
-				}
-
-                document.write("<h4><center>");
-                document.write("<p>Vous avez <a id='clic'>0 </a> cannelé(s)</p><br>");
-                document.write("</h4></center>");
-
-            </script>
-        <br> <br>
+		<iframe style="border-width:0;" id="kisskiss-payer-moi-des-tn" title="Payer moi des TN" width="375" height="400" src="https://www.kisskissbankbank.com/fr/projects/payer-moi-des-tn/widget_v2"></iframe>
+		
+		<h4><center><p>
+			Vous avez <a id='clic'>0 </a> étoile(s)
+			<br>
+			Le prix d'une nébuleuse est de <a id=>0</a> étoiles
+		</p></center></h4>
+		
+		
+		<br> <br> <br>
 
 		
 		<div id='stars2'></div>
 		<div id='stars3'></div>
 		<div id='title'>
-			<br>
-			<span>
+			<span> <br> <br> <br>
 				Magasin en cours de construction
 			</span>
 		</div>
 		<div id='stars'></div>
+		
+		
 
         <center>
-            <button id='clic' onclick = "compteur()" style ="background :#623bec ; color :#000000 ;">Cuisiner</button>
-            <button id='clic' onclick = "four()" style ="background :#623bec ; color :#000000 ;">Acheter un four (25 cannelés)</button>
-        </center>
+			<img src="img/etoile_fil.png" id='clic' onclick = "compteur();">
+			<button disabled id='b_nebuleuse' onclick = "four();">nebuleuse</button>
+            <!--<button id='clic' onclick = "four()" style ="background :#623bec ; color :#000000 ;">Acheter une nebuleuses (25 étoiles)</button>
+			--><br> <br>
+		</center>
 
     </div>
     </body>
