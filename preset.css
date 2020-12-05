@@ -1,0 +1,36 @@
+h1{
+	text-align: center;
+	color: rgb(255, 245, 110);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2{
+	font-family: Verdana;
+	/*font-style: italic;
+	color: green;*/
+}
+
+h3{
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+	color: rgb(255, 255, 255);
+}
+
+table{
+	border-collapse: collapse;
+}
+td, th{
+	border: 1px solid black;
+}
+
+body {
+	color:black;
+	background-color:white;
+	background-image:url(img/wallpaper.jpg);
+}
+
+img {
+    width: 65%;
+}

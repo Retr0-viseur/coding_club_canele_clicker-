@@ -2,15 +2,18 @@
 <html>
     <head>
 		<meta charset="utf-8">
-		<title>The Canelé Clicker</title>
-        <link rel="stylesheet" href="style.css" />
+		<title>Retr0's Stars Clicker</title>
+		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="preset.css" />
+		<link rel="stylesheet" href="star.css" />
+		<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     </head>
     <body>
         <div>
 
-        <h2><b><p>Canelé Clicker</p></b></h2>
+        <h1><b>Stars Clicker</b></h1>
 
-		<!-- <img src="img/wallpaper.jpg">
+		<!-- <img src="img/etoile_fil.jpg">
 		-->
 
         <br>
@@ -31,20 +34,27 @@
 				}
 
                 document.write("<h4><center>");
-                document.write("<p>Vous avez <a id='clic'>0 </a> cannelé(s)</p><br><");
+                document.write("<p>Vous avez <a id='clic'>0 </a> cannelé(s)</p><br>");
                 document.write("</h4></center>");
 
             </script>
         <br> <br>
 
+		
+		<div id='stars2'></div>
+		<div id='stars3'></div>
+		<div id='title'>
+			<br>
+			<span>
+				Magasin en cours de construction
+			</span>
+		</div>
+		<div id='stars'></div>
+
         <center>
-            <button id='clic' onclick = "compteur()" style ="background :#df8f4e ; color :#000000 ;">Cuisiner</button>
-            <button id='clic' onclick = "four()" style ="background :#e48e48 ; color :#000000 ;">Acheter un four (25 cannelés)</button>
+            <button id='clic' onclick = "compteur()" style ="background :#623bec ; color :#000000 ;">Cuisiner</button>
+            <button id='clic' onclick = "four()" style ="background :#623bec ; color :#000000 ;">Acheter un four (25 cannelés)</button>
         </center>
-
-        <br>
-
-        <p class="construction">Le magasin est en construction</p>
 
     </div>
     </body>
