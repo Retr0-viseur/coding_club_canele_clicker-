@@ -18,3 +18,63 @@
 	font-style: italic;
 	color: green;
 }
+
+.body{
+	background: white;
+}
+
+.p{
+	color: black;
+}
+
+.titre{
+	font-style: strong;
+	background-color: aqua; 
+	color: black ;
+	font-size: 16;
+	font-family: Corbel;
+	
+}
+.table{
+	border-collapse: collapse;
+}
+.td, th{
+	border: 1px solid black;
+}
+	
+	
+.img{
+	width: 150px;
+	height: 150px;
+}
+.part1{
+	border:1px solid black;
+ padding:3px;
+}
+.bleu{
+		color:blue;
+	font-style: strong;
+}
+.vert{
+		color:green;
+	font-style: strong;
+}
+.fin{
+	font-style: strong;
+}
+
+.perso{
+	float: right;
+}
+.arrondieb
+{
+	border: 1px solid black; 
+	border-collapse: collapse; 
+	border-radius: 10px 10px 10px 10px;
+}
+.arrondiev{
+	border: 1px solid black; 
+	border-collapse: collapse; 
+	border-radius: 10px 10px 10px 10px;
+}
+     
