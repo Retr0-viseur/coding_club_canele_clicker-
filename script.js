@@ -25,4 +25,3 @@ function four(){
         button.disabled = true;
     }
 }
-

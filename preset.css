@@ -34,3 +34,8 @@ body {
 img {
     width: 5%;
 }
+
+iframe{
+    position: relative;right: auto;
+    border-right: 0cm;
+}
